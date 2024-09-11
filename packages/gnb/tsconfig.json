@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    "declaration": true, // .d.ts 파일 생성
+    "declarationMap": true, // .d.ts 파일에 맵 파일 생성 (선택 사항)
+    "outDir": "dist", // 빌드 출력 디렉토리
+    "rootDir": "src" // 소스 파일 디렉토리
+  },
+  "include": ["src"]
+}
